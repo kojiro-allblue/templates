@@ -88,6 +88,7 @@
     align-items: center;
     justify-content: center;
     width: 150px;
+    height: 150px;
     padding: 20px 0px;
 }
 
@@ -95,4 +96,8 @@
     width: calc(100% - 180px);
     margin: auto auto;
     font-family: 'Roboto', sans-serif;
+}
+
+.pkojiro dl.codebox.spoiler {
+    margin: 3px 0px!important;
 }
