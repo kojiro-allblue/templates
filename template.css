@@ -31,12 +31,18 @@
 .pkojiro .head h1 {
     font-family: 'Sacramento', cursive;
     font-size: 1.2em;
+    margin: 0px;
+    padding: 0;
+    line-height: 1.2em;
 }
 
 .pkojiro .head h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 0.7em;
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    line-height: 0.7em;
 }
 
 .pkojiro .content {
