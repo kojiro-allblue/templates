@@ -107,6 +107,6 @@
     border-radius: 20px;
 }
 
-.pkojiro .bottom > .spoilers > dl > dd > .spoiler_content .hidden {
+.pkojiro .bottom .spoilers dl.codebox.spoiler .spoiler_content.hidden {
     border: 0px solid transparent!important;
 }
