@@ -108,5 +108,5 @@
 }
 
 .pkojiro .bottom > .spoilers > dl > dd > .spoiler_content .hidden {
-    border: 0px solid transparent;
+    border: 0px solid transparent!important;
 }
