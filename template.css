@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100&family=Sacramento&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+
+.pkojiro {
+    width: 75%;
+    color: #ffffff;
+}
+
+.pkojiro .head {
+    height: 150px;
+    background: gray url(https://i.imgur.com/GBRRzGN.gif) no-repeat center bottom;
+    background-size: cover;
+    border-radius: 12px;
+    margin-bottom: 21px;
+}
+
+.pkojiro .head .container {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pkojiro .head h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.2em;
+}
+
+.pkojiro .head h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.7em;
+}
+
+.pkojiro .content {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 0px 15px;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.pkojiro .content p {
+    padding: 6px 0px;
+    text-align: justify;
+}
+
+.pkojiro .divisor {
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 5px;
+}
+
+.pkojiro .bottom {
+    display: flex;
+    width: 90%;
+    margin: 21px auto 0 auto;
+}
+
+.pkojiro .bottom .ornament img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.pkojiro .bottom .ornament:hover img {
+    filter: grayscale(0);
+}
+
+.pkojiro .bottom .ornament {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 20px 0px;
+}
+
+.pkojiro .bottom .spoilers {
+    width: calc(100% - 180px);
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
