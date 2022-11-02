@@ -100,4 +100,13 @@
 
 .pkojiro dl.codebox.spoiler {
     margin: 3px 0px!important;
+    border-radius: 20px;
+}
+
+.pkojiro .bottom > div.spoilers > dl > dt {
+    border-radius: 20px;
+}
+
+.pkojiro .bottom > .spoilers > dl > dd > .spoiler_content .hidden {
+    border
 }
