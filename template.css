@@ -58,7 +58,11 @@
 .pkojiro .content p {
     padding: 6px 0px;
     text-align: justify;
-    margin: 0px
+    margin: 0px;
+}
+
+.pkojiro .content .fala {
+    color: #9050b7;
 }
 
 .pkojiro .divisor {
